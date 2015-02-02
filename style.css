@@ -14,7 +14,6 @@ background-repeat: no-repeat;
 background-position: right top;
 height: 100%;
 font-family: arial;
-background-attachment: fixed;
 }
 
 ul{
@@ -71,13 +70,8 @@ height: auto;
 margin: auto;
 margin-top: 5px;
 margin-bottom: 5px;
-padding: 20px;
-padding-top: 5px;
-padding-bottom: 10px;
+padding: 5px;
 background-color: white;
-font-size: 18px;
-text-align: justify;
-color: #4D4D4D;
 }
 
 #titre{
@@ -85,7 +79,7 @@ background-color: #cedce7;
 width: 100%;
 padding: 20px;
 padding-left: 200px;
-/*border-bottom: solid 4px #98b1c5;*/
+border-bottom: solid 4px #98b1c5;
 }
 
 #menu{
@@ -94,24 +88,11 @@ width: 100%;
 padding: 20px;
 background-color: #cedce7;
 border-bottom: solid black 2px;
-/*border-top: solid 2px #b9cad8;*/
+border-top: solid 2px #b9cad8;
 }
 
 #texte_titre{
 padding-top: 10px;
 vertical-align: middle;
 font-size: 32px;
-}
-
-h1{
-font-size: 28px;
-}
-
-h2, h3{
-color: black;
-margin-bottom: 30px;
-}
-
-hr{
-
 }
