@@ -78,6 +78,7 @@ background-color: white;
 font-size: 18px;
 text-align: justify;
 color: #4D4D4D;
+box-shadow: 2px 2px 8px #555;
 }
 
 #titre{
@@ -101,6 +102,7 @@ border-bottom: solid black 2px;
 padding-top: 10px;
 vertical-align: middle;
 font-size: 32px;
+font-style: italic;
 }
 
 h1{
@@ -132,4 +134,18 @@ img#git:hover{
         -moz-transform: scale(1.1);
         -o-transform: scale(1.1);
         transform: scale(1.1);
+}
+
+.post{
+margin: 10px 40px;
+padding: 10px;
+border-style: solid;
+border-width: 1px;
+border-color: lightgray;
+background-color: white;
+box-shadow: 2px 2px 6px #555;
+}
+
+div#sommaire{
+padding-left: 40px;
 }
